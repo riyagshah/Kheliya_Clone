@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+ #cartcontainer{
+  
+  border-width: 0;
+  font-size: 15px;
+  margin: 0 auto;
+  max-width: 1020px;
+  outline: 0;
+  padding: 0 20px;
+  vertical-align: baseline;
+  /* border:1px solid black; */
+  margin-top:50px;
+  height:auto;
+}
+.lohi{
+
+ 
+  border-width: 0;
+  clear: both;
+  color: #000000;
+  display: block;
+  font-family: "Varela Round",sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 0 0 .2em;
+  outline: 0;
+  overflow-wrap: break-word;
+  padding: 0;
+  vertical-align: baseline;
+
+}
+.h4lo{
+  
+ 
+
+  border-width: 0;
+  clear: both;
+  color: #44b109;
+  font-family: "Varela Round",sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0 0 20px;
+  outline: 0;
+  overflow-wrap: break-word;
+  padding: 0;
+  text-align: center;
+  vertical-align: baseline;
+
+  border-width: 0;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+.ttble{
+  -webkit-border-horizontal-spacing: 0;
+  -webkit-border-vertical-spacing: 0;
+  border: 1px solid #ebebeb;
+  border-collapse: separate;
+  border-radius: 0;
+  font-size: 15px;
+  margin: 0 -1px 24px 0;
+  outline: 0;
+  padding: 0;
+  text-align: left;
+  vertical-align: baseline;
+  width: 100%;
+}
+.imgo{
+  border-width: 0;
+  box-shadow: none;
+  height: 70px;
+  max-width: 140px;
+  vertical-align: middle;
+  width: 32px;
+
+}
+table td,
+table th {
+  border: 1px solid #ddd;
+  padding: 2px 0px 0px 0px;
+  margin: 21px 21px -3px 23px;
+  text-align: center;
+  
+}
+table th{
+    
+background-color: 
+#f7f6f7;
+height:40px;
+}
+
+.td22{
+    
+  background-color: transparent;
+
+  color: #0170b9;
+  font-size: 15px;
+  
+  outline: 0;
+  padding-top: 40px;
+  text-decoration: none;
+  transition: all .2s linear;
+  vertical-align: baseline;
+
+}
+.totalpart{
+  /* border: 1px solid #740000; */
+  border-radius: 0;
+  float: right;
+  font-size: 15px;
+  margin: 0 0 2em;
+  outline: 0;
+  padding: 0 20px;
+  text-align: left;
+  vertical-align: baseline;
+  width: 48%;
+
+}
+.h2part{
+
+  background-color: #fbfbfb;
+  border-bottom: 1px solid #ebebeb;
+  border-width: 0;
+  clear: both;
+  color: #808285;
+  font-family: "Varela Round",sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.3;
+  margin: 0 -20px 20px;
+  outline: 0;
+  overflow-wrap: break-word;
+  padding: .7em 1em;
+  vertical-align: baseline;
+
+}
+.tdl{
+
+  border: 0 solid rgba(0,0,0,.1);
+  display: block;
+  font-size: 15px;
+  line-height: 1.5em;
+  margin: 0;
+  outline: 0;
+  padding: .7em 1em;
+  text-align: right;
+  vertical-align: top;
+
+}
+.thl{
+  
+  border: 1 solid rgba(157, 60, 60, 0.1);
+  display: none;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.5em;
+  margin: 0;
+  outline: 0;
+  padding: .7em 1em;
+  vertical-align: top;
+  width: 40%;
+  color: #0170b9;
+}
+.thsubtotal{
+  
+  border:1 solid rgb(171, 148, 148);
+ color: #4b4f58;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.5em;
+  margin: 0;
+  outline: 0;
+  padding: .7em 1em;
+  vertical-align: top;
+  width: 40%;
+
+}
+.tdsubtotal{
+   
+  border: 1 solid rgba(0,0,0,.1);
+  display: block;
+  font-size: 22px;
+  font-weight:bolder;
+  line-height: 1.5em;
+  margin: 0;
+  outline: 0;
+  padding: .7em 1em;
+  text-align: right;
+  vertical-align: top;
+  width:180px;
+  text-align:center;
+  
+
+}
+.trbut{
+  
+  -webkit-font-smoothing: antialiased;
+  background-color:
+#0170b9;
+  background-image: none;
+  border-radius: 3px;
+  border-width: 0;
+  box-shadow: none;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16.5px;
+  font-weight: 700;
+  left: auto;
+  line-height: 1;
+  margin-top: 2em;
+  outline: 0;
+  overflow: visible;
+  padding: .5em .75em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: none;
+  transition: all .2s linear;
+  vertical-align: baseline;
+  width:360px;
+}
+.inpute{
+
+  appearance: none;
+  background-color: #fff;
+ 
+  border-radius: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #666;
+  float: left;
+  font-family: "Varela Round",sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  height: auto;
+  line-height: 1;
+  margin: 0 4px 0 0;
+  max-height: 35px;
+  outline: 0;
+  padding: 6px 6px 5px;
+  transition: all .2s linear;
+  vertical-align: middle;
+  width: 48%;
+
+}
+.buttone{
+ 
+    background-color: #0d1345;
+    background-image: none;
+    border-radius: 3px;
+    border-width: 0;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #fbf7f7;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1;
+    margin-left: 10px;
+    margin-top: 20px;
+    overflow: visible;
+    padding: .5em .75em;
+    position: relative;
+    text-decoration: none;
+    text-shadow: none;
+    text-transform: none;
+    vertical-align: baseline;
+    width: 45%;
+
+}
+table td, table th {
+    border: 1px solid #fff;
+    padding: 8px;
+    /* border: blanchedalmond; */
+    text-align: center;
+    border-block-end-color: rgb(215, 209, 209);
+}
+table td, table th {
+    border: 1px solid #fff;
+    padding: 2px 0px 0px 0px;
+    /* border: blanchedalmond; */
+    text-align: center;
+    line-height: -28px;
+    border-block-end-color: rgb(210, 206, 206);
+    margin: 21px 21px -3px 23px;
+}
+    </style>
+</head>
+<body>
+<div id="cartcontainer">
+<h1 class="lohi">Cart</h1>
+<h4 class="h4lo"> 100% satisfaction guratantee, easy returns & refund if you don’t like it.</h4>
+
+
+    <table class="ttble pure-table pure-table-horizontal" >
+      <thead>
+        <tr>
+            <th>remove item</th>
+            <th class="tdimg">Product Image</th>
+          <th class="thproduct">Product</th>
+          <th>Price</th>
+          <!-- <th>Subtotal</th> -->
+        </tr>
+      </thead>
+      <tbody id="body"></tbody>
+    </table>
+    <div class="ole"></div>
+    <div class="totalpart">
+ <h2 class="h2part">Cart Total</h2>
+<table>
+    <tbody>
+        <tr>
+            <th class="thsubtotal">SubTotal</th>
+            <td class="tdsubtotal jisub"></td>
+        </tr>
+        <tr>
+            <th class="thsubtotal">Total</th>
+            <td class="tdsubtotal jitotal"></td>
+        </tr>
+  
+    </tbody>
+
+</table>
+
+    <button class="trbut">Proceed to checkout</button>
+
+</div>
+</body>
+</html>
+<script>
+    
+     var pto=0;
+    //     var addtocart=[
+    //   {img :"https://www.kheliyatoys.com/wp-content/uploads/2020/05/Sebamed-Baby-Cleaning-Bar-100gm-300x300.jpg",name:"Sebamed-Baby-Cleaning-Bar",price:"₹40.00",p:40,popularity:5, date: "2020-01-02"},
+    //   {img :"https://www.kheliyatoys.com/wp-content/uploads/2020/04/Peristaltic-Nipple-Small-0-3-Month-P-88020-300x300.jpg",name:"Peristaltic-Nipple-Small-0-3",price:"₹40.00", p:40,popularity:2, date:"2020-01-05"},
+    //   {img :"https://www.kheliyatoys.com/wp-content/uploads/2020/04/Peristalic-Bottle-Kpp-R-L-P-88003-300x300.jpg",name:"Peristalic-Bottle-Kpp",price:"₹60.00",p:60,popularity:5, date: "2020-01-06"},
+    //   {img :"https://www.kheliyatoys.com/wp-content/uploads/2020/04/Natural-Fit-Nipple-Shield-Large-P-26227-300x300.jpg",name:"Natural-Fit-Nipple-Shield-Large",price:"₹90.00",p:90,popularity:1, date: "2020-01-07"},
+    //   {img :"https://www.kheliyatoys.com/wp-content/uploads/2020/05/Sebamed-Baby-Body-Milk-400ml-300x300.jpg",name:"ebamed-Baby-Body-Milk-",price:"₹40.00",p:40,popularity:3, date: "2020-01-04"},
+      
+    //   ] 
+     
+    var addtocart = JSON.parse(localStorage.getItem("wishlist"));
+    window.addEventListener("load", function () {
+      displayData(addtocart);
+    });
+
+    function displayData(addtocart) {
+       
+      addtocart.map(function (el,index) {
+        pto=pto+el.p
+        // console.log(pto)
+        var row = document.createElement("tr");
+var cross=document.createElement("td");
+cross.setAttribute("class","buttonremove")
+
+var bcros=document.createElement("button");
+bcros.innerText="x";
+bcros.addEventListener("click",function(){
+  removefunc(el,index)
+})
+  
+cross.append(bcros)
+        var td1 = document.createElement("td");
+        td1.setAttribute("class","td11")
+        var imgo=document.createElement("img")
+   imgo.src=el.img
+   imgo.setAttribute("class","imgo")
+   td1.append(imgo)
+
+        var td2 = document.createElement("td");
+        td2.setAttribute("class","td22")
+        td2.innerText = el.name;
+
+        var td3 = document.createElement("td");
+        td3.innerText = "₹"+el.p;
+        td3.setAttribute("class","product-price ")
+
+        // var td4 = document.createElement("td");
+        // td4.innerText = "Bookmark";
+        // td4.style.color = "blue";
+        // td4.style.cursor = "pointer";
+
+        // td4.addEventListener("click", function () {
+        //   addToBookmark(elem);
+        // });
+
+        // var td5 = document.createElement("td");
+        // td5.innerText = elem.salary;
+
+        row.append(cross,td1, td2, td3);
+
+        document.querySelector("tbody").append(row);
+      });
+      var jisub1=document.querySelector(".jisub");
+    jisub1.textContent=pto;
+   
+    var jitotal=document.querySelector(".jitotal")
+    jitotal.textContent=pto;
+    console.log(jisub1,jitotal)
+var inpute=document.createElement("input");
+// inpute.setAttribute("class", "inj")
+inpute.placeholder="Coupon Code";
+// inpute.setAttribute("class", "inpute")
+
+var buttone= document.createElement("button");
+buttone.innerText="Apply coupon code";
+
+buttone.setAttribute("class","buttone")
+
+buttone.addEventListener("click",function(){
+    if(inpute.value=="discount10")
+    {
+        var disc=pto-(pto*(10/100))
+jitotal.innerText=disc;
+jisub1.innerText=disc;
+    }
+    else
+    {alert("Coupon code invalid!")}
+})
+  
+   
+    
+
+var dive=document.createElement("div");
+dive.setAttribute("class", "inpute")
+dive.append(inpute,buttone)
+
+document.querySelector(".ole").append(dive)
+document.querySelector(".trbut").addEventListener("click", function(){
+    window.location.href="checkout.html"
+
+})
+    }
+ 
+
+   
+// if(inpute=="discount")
+// {
+//     var disco=pto-(pto*(20/100))
+// jitotal.textContent=disco;
+// jisub1.textContent=disco
+// }
+    // }
+    function removefunc(elem,index) {
+    //   console.log(elem, index);
+   
+   
+addtocart.splice(index,1)
+
+      localStorage.setItem("wishlist", JSON.stringify(addtocart));
+      
+      window.location.reload();
+
+      }
+    
+
+</script>
