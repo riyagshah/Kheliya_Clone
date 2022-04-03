@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Page</title>
+    <link rel="icon" href="https://www.kheliyatoys.com/wp-content/uploads/2015/10/cropped-kheliya-favicon-2-32x32.png"
+        sizes="32x32">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="index.css"> -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://kit.fontawesome.com/4c42ee9e21.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Varela+Round&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./Styles/checkout.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="partner.html">Become a Franchisee Partner</a></li>
+            <li><a href="location.html">Store Locator</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+            <li><a href="account.html">My Account</a></li>
+        </ul>
+    </nav>
+    <!-- zigzag starts -->
+    <div id="d-wrapper">
+        <div class="zig-zag-bottom">
+            <!-- Start of Header -->
+            <div class="header">
+                <!-- <div id="dropdown"> -->
+                <!-- side Bar starts here -->
+                <div id="mySidebar" class="sidebar">
+                    <a href="#" class="closebtn" onclick="closeNav()">×</a>
+                    <div class="dropdown">
+                        <a href="#" onclick="myFunction()" class="dropbtn">Baby Products <i
+                                class="fa-solid fa-angle-down"></i></a>
+                        <!-- <button onclick="myFunction()" class="dropbtn"></button> -->
+                        <div id="myDropdown" class="dropdown-content">
+                            <a href="./BrowseByAge/babycare.html">Baby Care <i class="fa-solid fa-angle-down"></i></a>
+                            <a href="#">Baby Carriers<i class="fa-solid fa-angle-down"></i></a>
+                            <a href="#">Baby Rockers<i class="fa-solid fa-angle-down"></i></a>
+                            <a href="#">Baby Skin Care<i class="fa-solid fa-angle-down"></i></a>
+                            <a href="#">Baby Swings<i class="fa-solid fa-angle-down"></i></a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <a href="#" onclick="myFunction1()" class="dropbtn">Baby Toys<i
+                                class="fa-solid fa-angle-down"></i></a>
+
+                        <div id="myDropdown1" class="dropdown-content">
+                            <a href="#">Baby Blocks <i class="fa-solid fa-angle-down"></i></a>
+                            <a href="#">Cot Mobiles<i class="fa-solid fa-angle-down"></i></a>
+                            <a href="./BrowseByAge/softtoys.html">Soft Toys<i class="fa-solid fa-angle-down"></i></a>
+                            <a href="./BrowseByAge/activitycraftgames.html">Acitivity-craft<i class="fa-solid fa-angle-down"></i></a>
+                            <a href="#">Tumblers<i class="fa-solid fa-angle-down"></i></a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <a href="#" onclick="myFunction2()" class="dropbtn">Gifts<i
+                                class="fa-solid fa-angle-down"></i></a>
+                        <div id="myDropdown2" class="dropdown-content">
+                            <a href="./BrowseByAge/babygifts.html">Baby Gifts<i class="fa-solid fa-angle-down"></i></a>
+                            <a href="#">Voucher Gifts<i class="fa-solid fa-angle-down"></i></a>
+                            <a href="#">Return Gifts<i class="fa-solid fa-angle-down"></i></a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <a href="#" onclick="myFunction3()" class="dropbtn">Books<i
+                                class="fa-solid fa-angle-down"></i></a>
+                        <div id="myDropdown3" class="dropdown-content">
+                            <a href="./BrowseByAge/activity.html">Books<i class="fa-solid fa-angle-down"></i></a>
+                            <a href="#">Colouring Books<i class="fa-solid fa-angle-down"></i></a>
+                            <a href="#">Sticker Books<i class="fa-solid fa-angle-down"></i></a>
+                            <a href="./BrowseByAge/stationary.html">Stationary<i class="fa-solid fa-angle-down"></i></a>
+                            <a href="#">Story Books<i class="fa-solid fa-angle-down"></i></a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <a href="#" onclick="myFunction4()" class="dropbtn">Cars<i
+                                class="fa-solid fa-angle-down"></i></a>
+                        <div id="myDropdown4" class="dropdown-content">
+                            <a href="#">Die-Cast Cars<i class="fa-solid fa-angle-down"></i></a>
+                            <a href="#">Hotwheels<i class="fa-solid fa-angle-down"></i></a>
+                            <a href="#">Multi-car Sets<i class="fa-solid fa-angle-down"></i></a>
+                            <a href="#">RC Toys<i class="fa-solid fa-angle-down"></i></a>
+                            <a href="#">Track Sets<i class="fa-solid fa-angle-down"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="main">
+                    <button class="openbtn" onclick="openNav()">Menu ☰ </button>
+                </div>
+                <!-- <p>Menu</p> -->
+                <!-- <i class="fas fa-align-justify icon"></i> -->
+                <!-- </div> -->
+
+                <!-- Sidebar Ends Here -->
+                <!-- Dropdowns Starts Here -->
+                <a href="index.html"><img
+                        src="https://www.kheliyatoys.com/wp-content/uploads/2016/08/kheliya-logo-svg.svg"
+                        class="img1"></a>
+                <input type="text" placeholder="  Search Products..." class="input"><Button>Search</Button>
+                <div class="blk">
+                    <div id="mySidebar1" class="cartside">
+                        <a href="javascript:void(0)" class="closebtn1" onclick="closeNav1()">×</a>
+                        <a href="#">Your cart is empty</a>
+                    </div>
+                    <div id="main1">
+                        <button class="openbtn1" onclick="openNav1()"><span id="price">₹0.00</span>
+                            <i class="fa-solid fa-cart-shopping" id="cart"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of header Area -->
+    <!-- zigzag ends -->
+    <!-- .entry-header -->
+    <h1 class="sk-title">Checkout</h1>
+    <div id="sk-top">
+
+        <div class="sk-info">
+            Returning customer? <a onclick="myFunction11()" href="#" target="_blank">Click here to login</a>. <br />For
+            faster checkout, login or register using your social account. <a onclick="myFunction12()" href="#"
+                target="_blank">Click here to login</a>
+
+
+
+            <!-- pop-up form for 1st div -->
+
+
+
+            <div id="myDIV">
+                <p id="zpzzz">
+                    If you have shopped with us before, please enter your details below. If
+                    you are a new customer, please proceed to the Billing section.
+                </p>
+                <div id="box1">
+                    <div class="zd">
+                        <p>Username or email<span>*</span></p>
+                        <input class="zinp122" type="text" placeholder="enter email" />
+                    </div>
+                    <div class="zd">
+                        <p>Password<span>*</span></p>
+                        <input class="zinp122" type="password" placeholder="enter password" />
+                    </div>
+                </div>
+
+                <p class="zdownz">
+                    <input type="checkbox" id="zcheck" onclick="color:blue" /> Remember me
+                </p>
+                <button id="zlastzz" type="submit" class="zlog">Login</button>
+                <p id="zparaz">
+                    <a href="" id="zlyp"">Lost your password?</a>
+      </p>
+    </div>
+
+
+    <div id="myDIV1">
+                        <p id="zpara12">For faster checkout, login or register using your social account.</p>
+                        <div id="zmaindiv1">
+                            <a href="https://accounts.google.com/signin/oauth/error?authError=ChVyZWRpcmVjdF91cmlfbWlzbWF0Y2gSsAEKWW91IGNhbid0IHNpZ24gaW4gdG8gdGhpcyBhcHAgYmVjYXVzZSBpdCBkb2Vzbid0IGNvbXBseSB3aXRoIEdvb2dsZSdzIE9BdXRoIDIuMCBwb2xpY3kuCgpJZiB5b3UncmUgdGhlIGFwcCBkZXZlbG9wZXIsIHJlZ2lzdGVyIHRoZSByZWRpcmVjdCBVUkkgaW4gdGhlIEdvb2dsZSBDbG91ZCBDb25zb2xlLgogIBptaHR0cHM6Ly9kZXZlbG9wZXJzLmdvb2dsZS5jb20vaWRlbnRpdHkvcHJvdG9jb2xzL29hdXRoMi93ZWItc2VydmVyI2F1dGhvcml6YXRpb24tZXJyb3JzLXJlZGlyZWN0LXVyaS1taXNtYXRjaCCQAypDCgxyZWRpcmVjdF91cmkSM2h0dHA6Ly93d3cua2hlbGl5YXRveXMuY29tLz93Yy1hcGk9YXV0aCZkb25lPWdvb2dsZQ%3D%3D&client_id=655154902305-6vcp0pmfq8ecr40ggaee12i9p2196e14.apps.googleusercontent.com"><div class="zdiv1">
+                                <img class="google1"
+                                    src="data:image/png;base64,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"
+                                    alt="" />
+                                <button href="" class="zbut1">Log in with Google</button>
+                            </div></a>
+                            <a href="https://na.account.amazon.com/ap/signin?_encoding=UTF8&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.pape.max_auth_age=0&ie=UTF8&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=lwa&openid.assoc_handle=amzn_lwa_na&marketPlaceId=ATVPDKIKX0DER&arb=a9e08e74-f954-4323-8651-69c7d1465add&language=en_US&openid.return_to=https%3A%2F%2Fna.account.amazon.com%2Fap%2Foa%3FmarketPlaceId%3DATVPDKIKX0DER%26arb%3Da9e08e74-f954-4323-8651-69c7d1465add%26language%3Den_US&enableGlobalAccountCreation=1&metricIdentifier=amzn1.application.157d17866e5848fea5f1e79ae08ed4b7&signedMetricIdentifier=%2FeEj4TMtI1KKKOfWsyYPp16GMx3ULGSe52i31XJpKTM%3D">
+                                <div class="zdiv2">
+                                    <img class="google2"
+                                        src="https://i.pinimg.com/originals/01/ca/da/01cada77a0a7d326d85b7969fe26a728.jpg"
+                                        alt="" />
+                                    <button class="zbut2">Log in with Amazon</button>
+                                </div>
+                            </a>
+                        </div>
+
+            </div>
+
+
+
+        </div>
+
+
+
+
+        <!-- coupon -->
+        <div class="sk-info">
+            Have a coupon? <a onclick="myFunction13()" href="#" class="showlogin">Click here to enter your code</a>.
+            <br />
+        </div>
+    </div>
+    <!-- pop-up form 2nd div -->
+    <!-- append by cs -->
+    <div id="zconta">
+        <p id="zparaco">If you have a coupon code, please apply it below.</p>
+        <div>
+            <input id="zcoupon" type="text" placeholder="Coupon Code">
+            <button type="submit" class="zlog">Apply coupon</button>
+        </div>
+    </div>
+
+
+    <!-- Billing part -->
+
+    <div class="sk-main-div">
+        <div class="sk-Bill-div">
+            <br>
+            <h3 class="sk-billing-h3">Billing details</h3>
+
+            <hr>
+            <form>
+                <div>
+                    <div class="sk-name">
+
+                        <div>
+                            <p>
+
+                                <label class="sk-label">First Name <span class="sk-red">*</span>
+
+                                </label>
+                                <br>
+                                <input id="firstname" type="text" class="sk-input-text " name="billing_first_name"
+                                    autocomplete="given-name"  />
+                            </p>
+                        </div>
+                        <div>
+                            <p>
+                                <label class="sk-label">Last Name <span class="sk-red">*</span>
+
+                                </label>
+                                <br>
+                                <input type="text" id="lastname" class="sk-input-text " name="billing_last_name"
+                                    autocomplete="family-name"  />
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="sk-name">
+                        <div>
+                            <p>
+                                <label class="sk-label">Email Address <span class="sk-red">*</span>
+
+                                </label>
+                                <br>
+                                <input type="email" id="email" class="sk-input-text " name="billing_email"
+                                    placeholder="For order confirmation" autocomplete="email" />
+                            </p>
+
+                        </div>
+                        <div>
+
+                            <p>
+                                <label class="sk-label">Mobile Number <span class="sk-red">*</span>
+                                </label>
+                                <br>
+                                <input type="tel" class="sk-input-text " name="billing_phone"
+                                    placeholder="10 digit mobile number" pattern=".{10,10}" autocomplete="tel" />
+                            </p>
+                        </div>
+                    </div>
+
+                    <p>
+                        <label class="sk-label">Address<span class="sk-red">*</span>
+                        </label>
+                        <br>
+                        <input type="text" class="sk-address " name="billing_address_1"
+                            placeholder="Postal address with landmark" autocomplete="address-line1" />
+                    </p>
+
+
+                    <div class="sk-name">
+                        <div>
+
+                            <p>
+                                <label class="sk-label">Pincode<span class="sk-red">*</span>
+                                </label>
+                                <br>
+                                <input type="text" class="sk-input-text " name="billing_postcode" placeholder="Pincode"
+                                    autocomplete="postal-code" />
+                            </p>
+
+                        </div>
+                        <div>
+                            <p>
+                                <label class="sk-label"> State City<span class="sk-red">*</span>
+                                </label>
+                                <br>
+                                <input type="text" class="sk-input-text " name="billing_city" placeholder="City"
+                                    autocomplete="address-level2" />
+                            </p>
+                        </div>
+                    </div>
+
+                    <p>
+                        <select name="billing_state" class="sk-state_select " autocomplete="address-level1"
+                            data-placeholder="State" data-label="State">
+                            <option value="">State</option>
+                            <option value="AP">Andhra Pradesh</option>
+                            <option value="AR">Arunachal Pradesh</option>
+                            <option value="AS">Assam</option>
+                            <option value="BR">Bihar</option>
+                            <option value="CT">Chhattisgarh</option>
+                            <option value="GA">Goa</option>
+                            <option value="GJ">Gujarat</option>
+                            <option value="HR">Haryana</option>
+                            <option value="HP">Himachal Pradesh</option>
+                            <option value="JK">Jammu and Kashmir</option>
+                            <option value="JH">Jharkhand</option>
+                            <option value="KA">Karnataka</option>
+                            <option value="KL">Kerala</option>
+                            <option value="LA">Ladakh</option>
+                            <option value="MP">Madhya Pradesh</option>
+                            <option value="MH">Maharashtra</option>
+                            <option value="MN">Manipur</option>
+                            <option value="ML">Meghalaya</option>
+                            <option value="MZ">Mizoram</option>
+                            <option value="NL">Nagaland</option>
+                            <option value="OR">Odisha</option>
+                            <option value="PB">Punjab</option>
+                            <option value="RJ">Rajasthan</option>
+                            <option value="SK">Sikkim</option>
+                            <option value="TN">Tamil Nadu</option>
+                            <option value="TS">Telangana</option>
+                            <option value="TR">Tripura</option>
+                            <option value="UK">Uttarakhand</option>
+                            <option value="UP">Uttar Pradesh</option>
+                            <option value="WB">West Bengal</option>
+                            <option value="AN">Andaman and Nicobar Islands</option>
+                            <option value="CH">Chandigarh</option>
+                            <option value="DN">Dadra and Nagar Haveli</option>
+                            <option value="DD">Daman and Diu</option>
+                            <option value="DL">Delhi</option>
+                            <option value="LD">Lakshadeep</option>
+                            <option value="PY">Pondicherry (Puducherry)</option>
+                        </select>
+                        </span>
+                    </p>
+
+                    <p>
+                        <label class="sk-label">Country<span class="sk-red">*</span>
+                        </label>
+
+                        <select name="billing_country" class="sk-state_select " autocomplete="country"
+                            data-placeholder="Select a country / region&hellip;" data-label="Country">
+                            <option value="">Select a country / region&hellip;</option>
+                            <option value="AF">Afghanistan</option>
+                            <option value="AX">Åland Islands</option>
+                            <option value="AL">Albania</option>
+                            <option value="DZ">Algeria</option>
+                            <option value="AS">American Samoa</option>
+                            <option value="AD">Andorra</option>
+                            <option value="AO">Angola</option>
+                            <option value="AI">Anguilla</option>
+                            <option value="AQ">Antarctica</option>
+                            <option value="AG">Antigua and Barbuda</option>
+                            <option value="AR">Argentina</option>
+                            <option value="AM">Armenia</option>
+                            <option value="AW">Aruba</option>
+                            <option value="AU">Australia</option>
+                            <option value="AT">Austria</option>
+                            <option value="AZ">Azerbaijan</option>
+                            <option value="BS">Bahamas</option>
+                            <option value="BH">Bahrain</option>
+                            <option value="BD">Bangladesh</option>
+                            <option value="BB">Barbados</option>
+                            <option value="BY">Belarus</option>
+                            <option value="India">India</option>
+                        </select><noscript>
+                            <button type="submit" value="Update country / region">Update country /
+                                region</button></noscript>
+                        </span>
+                    </p>
+
+                </div>
+
+                <div>
+
+                    <p>
+                        <label class="sk-label">
+                            <input type="checkbox" onclick="myFunction14()" name="createaccount" value="1" />
+                            <span>Create an account?</span>
+                        </label>
+                    </p>
+
+                    <div id="zed">
+                        <p>Account Username<span>*</span></p>
+                        <input class="zusebox" type="text" placeholder="Username">
+                        <p id="zlastuser">Create account password<span>*</span> </p>
+                        <input class="zusebox" type="password" placeholder="Password">
+                    </div>
+
+                    <input type="checkbox" name="ship_to_different_address" value="1" /> <span class="sk-shipadd">Ship
+                        to a different address?</span>
+
+                </div>
+
+                <hr>
+                <div>
+                    <p>
+                        <label class="sk-label"> Order Notes (optional)
+                        </label>
+                        <br>
+                        <input type="text" class="sk-oder-notes " name="billing_city"
+                            placeholder="Notes about your order e.g  special notes for delivery"
+                            autocomplete="address-level2" />
+                    </p>
+                </div>
+
+        </div>
+
+        </form>
+
+        <div class="sk-order-div">
+            <br>
+            <h3 class="sk-order-h3">Your order</h3>
+            <br>
+            <div class="sk-table-div">
+                <table class="sk-table">
+                    <thead>
+                        <th>Product</th>
+                        <th>Subtotaal</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td> Item name</td>
+                            <td> Item price</td>
+                        </tr>
+
+                        <tr>
+                            <td>Little Angel Moving Image Projector with music </td>
+                            <td>price</td>
+                        </tr>
+
+                        <tr>
+                            <td>SubTotal</td>
+                            <td>cart total </td>
+                        </tr>
+                        <tr>
+                            <td>Total</td>
+                            <td>cart total <small>(includes rs <span>88.29</span> VAT)</small></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div>
+                    <ul>
+                        <li>
+                            <input type="radio" class="input-radio" name="payment_method" value="razorpay"
+                                checked='checked' data-order_button_text="" />
+
+                            <label for="payment_method_razorpay">
+                                RazorPay <img src="https://cdn.razorpay.com/static/assets/logo/payment.svg"
+                                    alt="RazorPay" />
+                            </label>
+
+                            <p class="sk-messagebox-p">Pay securely by Credit or Debit or Net Banking through Razorpay.
+                                We do not store any sensitive information.</p>
+
+                        </li>
+                        <li>
+                            <input type="radio" class="input-radio" name="payment_method" value="instamojo"
+                                data-order_button_text="" />
+
+                            <label for="payment_method_instamojo">
+                                Instamojo <img
+                                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAeZJREFUOI19krtuE0EUhv9zdmd3LYSECEi20WJBBVTAM8RGioREFwrAtNBQ2E4DNU3WFNSQyJYtpUsaF7kg3gAQUPACdoQgEsQ49to7cyiIE+2uzUinmTPfN/9cKFfZvkfEzwgYYNYgUpGYyveg9HVmGwAuVXY3OHNmWSYhBJLgGaInQ2PM7f36nW9JAaPTetkNivfN8KgBywKMjpXoCcCcIeZP2ZXd62mB0BV02ofd+uJjGYVNUl46pzEgYpcFH5ISBmEMzz2LTvtH91WxLGHYmCkRA2L2khIGAGgNWNYFdFo//yUZNUm585J4LPiYq2xfOxWcSOyF0yTjBjkZgO14EYNtxyXmL/nazk07tsNJkvZBd2lxIV/d+0UkN4SgE6cBAbaAV+KC45jwvPN41yjzgXorF8e3mEgnlwmEyYgXFxAByga4/8BvXv0jOflMcIHE3wAIbCmYcPDcTsHOUbmwVhhE2WgL2gCShsl2oMN+tbdaqvPxHGDbgBo98t8UfuscNiHzYAUzCWu91VJ9+goEpQA1fFhY9/smjy0x+j/wuNYLisF0lkHkQA6f+muX+1FWNiHzYCcFT8PDf/J+Wc7xhuhoxoUBZCmYKKxOY8d6+erOXYBbINEEmBQNOEbkxX5Qej2jh79RaeQT2vwcPgAAAABJRU5ErkJggg=="
+                                    alt="Instamojo" />
+                            </label>
+
+                            <p class="sk-messagebox-p1">Your personal data will be used to process your order, support
+                                your experience throughout this website, and for other purposes described in our
+                                <a href="https://www.kheliyatoys.com/privacy-policy/" target="_blank">privacy
+                                    policy</a>.
+                            </p>
+
+                        </li>
+
+
+                        <input type="checkbox" class="input-checkbox" name="payment_method" value="instamojo"
+                            data-order_button_text="" />
+                        <label id="sk-lab1">
+                            I have read and agree to the website <a href="www.terms & conditions" target="_blank"> terms
+                                and conditions</a><span class="sk-red">*</span>
+                        </label>
+
+                    </ul>
+
+                    <button id="sk-btn" href="">Place Order</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- Footer Starts -->
+      <div id="d-wrapper1">
+        <div class="zig-zag-top1">
+            <div class="footer">
+                <div>
+                    <ul class="li_items">
+                        <li>About Us</li>
+                        <li>Contact Us</li>
+                        <li>Store Locator</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="li_items">
+                        <li>Terms&Condition</li>
+                        <li>Privacy Policy</li>
+                        <li>Returns&Refund</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="li_items">
+                        <li>About us</li>
+                        <li>Become a Franchisee Partner</li>
+                        <li>Store Locator</li>
+                        <li>Contact us</li>
+                        <li>My Account</li>
+                    </ul>
+                </div>
+                <div>
+                    <p>Follow & connect with us on</p>
+                    <ol class="social-icon">
+                        <li><a href="https://www.facebook.com/kheliyatoys/"><i class="fab fa-facebook-f"></i></a>
+                        </li>
+                        <li><a href="https://twitter.com/kheliyatoys"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://www.instagram.com/kheliyatoys/"><i class="fab fa-instagram"></i></a>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            <div id="para">
+                <p>© 1985 – 2020, Deshpande Toys Pvt. Ltd. All rights reserved. Images & logos used on the website
+                    are
+                    properties of their respective owners.</p>
+            </div>
+            <!-- Footer Ends -->
+        </div>
+    </div>
+    <button class="btn">
+        <a href="https://web.whatsapp.com/"><i class="fab fa-whatsapp logos"></i></a>
+    </button>
+
+</body>
+
+</html>
+<script src="./JS/checkout.js"></script>
