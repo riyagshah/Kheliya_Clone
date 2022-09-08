@@ -1,3 +1,5 @@
+Deployed Link:https://frolicking-mochi-78d43d.netlify.app/
+
 Collaborative Project At Masai School “Kheliya Toys-Clone”.
 Getting Started:-
 Team member includes:-
